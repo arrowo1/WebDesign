@@ -1,0 +1,281 @@
+border-radius(@radius) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+
+#nav{
+  width: 100%;
+  }
+
+ul.a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E9575D;
+  }
+
+  ul.b{
+    list-style-type: none;
+    margin: 0;
+    padding: 40px;
+    overflow: hidden;
+  }
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+  }
+
+  li a:hover {
+    background-color: #FFA3A1;
+  }
+
+  .register-form{
+    background-color: #E9575D;
+    color: black;
+    width: 100px;
+    height:40px;
+    float: right;
+    margin-right: 200px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  #registerForm{
+    display: none;
+    transition: 0.5s;
+  }
+
+  #content{
+    float: right;
+  }
+
+  .submitRegister{
+    background-color: #FFA3A1;
+    padding: 2px 6px 0px 6px;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  .registerButton{
+    background-color: #E9575D;
+    color: black;
+    width: 100px;
+    height:40px;
+    float: right;
+    margin-right: 210px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .register:hover {
+    background-color: #E9575D;
+  }
+
+  .active {
+    background-color: #FFA3A1;
+    color: white;
+  }
+
+  .search{
+    background-color: #FFA3A1;
+    text-align: left;
+    padding: 16px 120px 14px 10px;
+    text-decoration: none;
+    border: black;
+  }
+
+  .name{
+    display: left;
+    background-color: #B1BEC4;
+    text-align: left;
+    padding: 5px 80px 5px 10px;
+    text-decoration: none;
+    border: black;
+  }
+
+  .name:hover{
+    background:#FFA3A1;
+  }
+
+  .email{
+    background-color: #B1BEC4;
+    text-align: left;
+    padding: 5px 80px 5px 10px;
+    margin-right:50px;
+    text-decoration: none;
+    border: black;
+  }
+
+  .email:hover{
+    background:#FFA3A1;
+  }
+
+  p.a{
+    border: 3px;
+    border-radius: 250px;
+    border-style: solid;
+    border-color: black;
+    width: 25%;
+    padding: 0 15px 0 50px;
+    background-color: #FFA3A1;
+    margin: 50px 0 50px 0px;
+    font-size: 115px;
+    font-weight: bold;
+  }
+
+  p.b{
+    border: 3px;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: black;
+    background-color: #B1BEC4;
+    font-size: 15px;
+    margin: 50px 0 50px 0px;
+    padding: 20px 80px 20px 80px;
+    width: 25%;
+    position: relative;
+    text-align:center;
+  }
+
+  p.c{
+    border: 3px;
+    border-radius: 70px;
+    border-style: solid;
+    border-color: black;
+    width: 25%;
+    padding: 0 3% 0 2%;
+    background-color: #FFA3A1;
+    margin: 5% 0 5% 2.5%;
+    font-size: 100px;
+    font-weight: bold;
+  }
+
+  #map{
+    float: left;
+    width: 15%;
+    margin: 50px 0 50px 50px;
+    float: left;
+  }
+
+#form{
+  float: right;
+  margin: -30px 50px 0 50px;
+  width: 500px;
+  border-radius: 10%;
+  background-color: #c4c4c4;
+
+}
+
+form{
+  max-width:420px; margin:50px auto;
+}
+
+.contactForm{
+  float: right;
+  color:white;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 15px;
+  line-height: 22px;
+  background-color: #eeebeb;
+  border:2px solid black;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+}
+
+.contactForm:hover{
+  background:#FFA3A1;
+}
+
+[type="submit"]{
+  width: 50%;
+  background:#eeebeb;
+  border-radius:15px;
+  border-color: black;
+  color:#c4c4c4;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+[type="submit"]:hover{
+   background:#FFA3A1;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  border-radius: 15%;
+  background-color: #c4c4c4;
+  height: 300px;
+  margin-left: 10%;
+  margin-top: 3%;
+  text-align: center;
+  line-height: 1000%;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.column2{
+  float: left;
+  width: 20%;
+  border-radius: 25%;
+  background-color: #c4c4c4;
+  height: 300px;
+  margin-top: 3%;
+  margin-left: 40.1%;
+  margin-right: 50%;
+  text-align: center;
+  line-height: 1000%;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.column:hover{
+  background:#FFA3A1;
+  width: 22.5%;
+  height: 325px;
+  transition: 0.5s;
+
+}
+
+.column2:hover{
+  background:#FFA3A1;
+}
+
+footer{
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: #c4c4c4;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 525px){
+
+  body{
+
+      background-color: white;
+
+  }
+}
