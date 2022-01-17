@@ -8,12 +8,31 @@ border-radius(@radius) {
   width: 100%;
   }
 
+  #navbar{
+    display:none;
+  }
+
+  #menu{
+    margin: 0 10px 0 10px;
+    padding: 0px 10px;
+    display: contents;
+  }
+
+  a.a{
+    height: 20px;
+    padding-top: 10px;
+  }
+
 ul.a {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #E9575D;
+    padding-bottom: -10px;
+    margin-bottom: -10;
+    height: 40px;
+
   }
 
   ul.b{
@@ -21,6 +40,7 @@ ul.a {
     margin: 0;
     padding: 40px;
     overflow: hidden;
+    padding-right: 70px;
   }
 
   li a {
@@ -37,13 +57,17 @@ ul.a {
     background-color: #FFA3A1;
   }
 
+  li.b{
+    padding-right:100px;
+  }
+
   .register-form{
     background-color: #E9575D;
     color: black;
     width: 100px;
     height:40px;
     float: right;
-    margin-right: 200px;
+    margin-right: 50px;
     margin-top: 20px;
     font-size: 15px;
     font-weight: bold;
@@ -54,13 +78,31 @@ ul.a {
     transition: 0.5s;
   }
 
+  #loginForm{
+    display: none;
+    transition: 0.5s;
+  }
+
+
   #content{
     float: right;
+  }
+
+  #home{
+    float:left;
+    margin:20px 50px;
   }
 
   .submitRegister{
     background-color: #FFA3A1;
     padding: 2px 6px 0px 6px;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  .submitLogin{
+    background-color: #FFA3A1;
+    padding: 6px 6px 0px 16px;
     font-weight: bold;
     font-size: 10px;
   }
@@ -95,6 +137,15 @@ ul.a {
   }
 
   .name{
+    display: left;
+    background-color: #B1BEC4;
+    text-align: left;
+    padding: 5px 80px 5px 10px;
+    text-decoration: none;
+    border: black;
+  }
+
+  .number{
     display: left;
     background-color: #B1BEC4;
     text-align: left;
@@ -158,6 +209,10 @@ ul.a {
     margin: 5% 0 5% 2.5%;
     font-size: 100px;
     font-weight: bold;
+  }
+
+  #aboutSection{
+    margin: 0px 30px;
   }
 
   #map{
@@ -248,15 +303,27 @@ form{
 }
 
 .column:hover{
-  background:#FFA3A1;
+  background:#E9575D;
   width: 22.5%;
   height: 325px;
   transition: 0.5s;
+}
 
+.column:hover:after{
+  color: #FFA3A1;
+  content: "Try Game";
 }
 
 .column2:hover{
-  background:#FFA3A1;
+  background:#E9575D;
+  width: 22.5%;
+  height: 325px;
+  transition: 0.5s;
+}
+
+.column2:hover:after{
+  color: #FFA3A1;
+  content: "Try Game";
 }
 
 footer{
@@ -264,11 +331,13 @@ footer{
   left: 0px;
   bottom: 0px;
   width: 100%;
+  margin-top:50px;
   background-color: #c4c4c4;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
   color: black;
   font-weight: bold;
+  position:bottom;
 }
 
 @media screen and (max-width: 525px){
@@ -278,4 +347,8 @@ footer{
       background-color: white;
 
   }
+}
+
+#games{
+  display: none;
 }
