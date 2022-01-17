@@ -176,11 +176,11 @@ ul.a {
     border-radius: 250px;
     border-style: solid;
     border-color: black;
-    width: 25%;
-    padding: 0 15px 0 50px;
+    width: 300px;
+    padding: 0 15px 0 25px;
     background-color: #FFA3A1;
-    margin: 50px 0 50px 0px;
-    font-size: 115px;
+    margin: 50px 0 50px -10px;
+    font-size: 100px;
     font-weight: bold;
   }
 
@@ -192,8 +192,10 @@ ul.a {
     background-color: #B1BEC4;
     font-size: 15px;
     margin: 50px 0 50px 0px;
-    padding: 20px 80px 20px 80px;
-    width: 25%;
+    padding: 20px 35px 20px 35px;
+    width: 50%;
+    display:flex;
+    justify-content:center;
     position: relative;
     text-align:center;
   }
@@ -203,7 +205,7 @@ ul.a {
     border-radius: 70px;
     border-style: solid;
     border-color: black;
-    width: 25%;
+    width: 350px;
     padding: 0 3% 0 2%;
     background-color: #FFA3A1;
     margin: 5% 0 5% 2.5%;
@@ -212,14 +214,23 @@ ul.a {
   }
 
   #aboutSection{
+    float:left;
     margin: 0px 30px;
+    width: 75%;
+  }
+
+  #aboutus{
+    width: 150%;
+  }
+
+  #about{
+    width: 75%;
   }
 
   #map{
     float: left;
-    width: 15%;
+    width: 50%;
     margin: 50px 0 50px 50px;
-    float: left;
   }
 
 #form{
